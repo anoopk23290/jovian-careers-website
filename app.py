@@ -5,15 +5,16 @@ app = Flask(__name__)
 JOB_LISTING = [{
   'id': 1,
   'title': 'Data scientist',
-  "salary": 'Rs 15,00,000',"location": 'Bangalore'
+  "salary": 'Rs 15,00,000',"location": 'Bangalore',
+  "link_apply":"https://www.w3schools.com"
 }, {
   'id': 2,
   'title': 'Data engineer',
-  "salary": 'Rs 12,00,000',"location": 'Chennai'
+  "salary": 'Rs 12,00,000',"location": 'Chennai',"link_apply":"https://www.w3schools.com/html/html_exercises.asp"
 }, {
   'id': 1,
   'title': 'Software developer',
-  "salary": 'Rs 14,00,000',"location": 'Hyderabad'
+  "salary": 'Rs 14,00,000',"location": 'Hyderabad',"link_apply":"https://www.w3schools.com/cssref/pr_text_text-align.php"
 }]
 
 

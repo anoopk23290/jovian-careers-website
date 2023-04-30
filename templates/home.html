@@ -14,15 +14,28 @@
     
   </head>
     
-  <body>
-    <h1 class = 'text-center'> Jovian Careers</h1>
-    <h2 class = 'text-center'> Hello there , you will learn about jovian careers here </h2>
-    <img class= 'img-fluid' id="banner" src= "https://jovian-careers-website.anoopk7.repl.co/static/banner.jpg" >
 
-    <div class = "text-center"> 
-
-    <h1>Job openings </h1>
-    <h2> 
+  <body style="margin-left:10px ;margin-right:10px;margin-top:20px">
+  <div style="margin-top:10px;margin-bottom:10px">
+    {% include "navbar.html" %}
+  </div>
+ 
+<div class = "row" style= "margin-top: 8px; margin-bottom:8px">
+  <div class="col-6">
+    <p class ="text-align: justify;
+  text-justify: inter-character;">
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
+    </p>
+  </div>
+  <div class="col-6">
+    <img  src= "/static/people_working.jpg" style="height:320px;" >
+  </div>
+    
+  
+</div>
+    <div class = "text-center">  
+     <h1>Job openings </h1>
+      
     {%  for job in jobs %}
 
       {% include 'jobitem.html' %}
@@ -32,8 +45,7 @@
     </div>
 
 
-    
-    </h2>
+
     <div class = "text-center">  
       <button type="button" class="btn btn-primary bt-lg"> contact us </button> 
       <p> @copyright 2012  jovian</p>
